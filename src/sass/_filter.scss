@@ -1,0 +1,39 @@
+.filter-section {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+}
+.filter-input {
+
+    border: 1px solid rgba(255, 255, 255, 0.555);
+    border-radius: 5px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+
+
+  &:hover {
+    border: 1px solid #f05d5d;
+    background: rgb(66, 65, 65);
+    color: rgba(255, 255, 255, 0.699);
+  }
+}
+
+.filter-input:not(:last-child) {
+  margin-right: 10px;
+}
+.filter-text {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  color: #fff;
+  @media screen and (min-width: 768px) {
+    margin-right: 20px;
+  }
+}
